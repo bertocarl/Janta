@@ -1,0 +1,13 @@
+.panel{
+    background: #4C2C69;
+  }
+  p, label,a{
+    color:#E28413;
+    font-size: 15px;
+  }
+  .panel-default{
+    border-color: inherit;
+  }
+  input{
+    text-align: center;
+  }

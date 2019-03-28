@@ -1,0 +1,1 @@
+Awardz Account Activation: {{user}}

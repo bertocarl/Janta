@@ -1,0 +1,1 @@
+web: gunicorn janta.wsgi 

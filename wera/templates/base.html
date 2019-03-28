@@ -1,0 +1,38 @@
+{% load bootstrap3 %}
+{% load static %}
+
+<head>
+<meta charset="utf-8">
+
+{% if title %}
+<title>{{title}}</title>
+{% else %}
+<title>Janta</title>
+{% endif %}
+{% block styles %}
+{% bootstrap_css %}
+
+
+{% endblock %}
+<link rel="shortcut icon" type="image/ico" href="{% static 'img/favicon.ico' %}">
+
+  </head>
+  <body>
+
+ 
+    {% block content %}
+    
+
+    {% endblock %}
+
+    {% block scripts %}
+
+   
+    {% bootstrap_javascript %}
+    {% endblock %}
+
+
+
+  </body>
+</html>
+
